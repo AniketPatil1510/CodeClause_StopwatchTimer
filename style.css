@@ -1,0 +1,65 @@
+@font-face {
+    font-family: PTMono;
+    src: url(fonts/PTMono-Regular.ttf);
+}
+
+body, html {
+    background-color: #e9e9e9;
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#headerDiv {
+    
+    padding: 10px;
+    text-align: center;
+}
+
+#mainDiv {
+    
+   
+ 
+    
+    margin-top: 10px;
+    margin-right: 1000px;
+    
+    
+    text-align: center;
+}
+
+#mainDiv p {
+   
+    
+    
+    color: rgb(180, 25, 144);
+    width: 530px;
+    font-size: 70px;
+    
+    font-family: PTMono, Helvetica, sans-serif;
+    user-select: none;
+}
+
+#mainDiv input {
+    background-color: #11ccf6;
+    
+    border-radius: 10px;
+    color: white;
+    font-size: 28px;
+    padding: 10px 25px 10px 25px;
+    
+    transition: background-color 0.5s ease-in-out;
+}
+
+#mainDiv input:hover {
+    background-color: #dc1717;
+    cursor: pointer;
+}
+
+#lapDiv {
+    margin-left: 60px;
+    text-align: left;
+    font-size: 35px;
+    height: 420px;
+    overflow: scroll;
+}
